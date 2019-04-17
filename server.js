@@ -13,8 +13,6 @@ hbs.registerPartials(__dirname + '/views/parciales');
 app.set('view engine', 'hbs');
 
 
-
-
 app.get('/', (req, res) => {
 
 
@@ -42,7 +40,6 @@ app.get('/data', (req, res) => {
 
 
 })
-
 app.listen(port, () => {
     console.log(`Escuchando peticiones en el puerto ${port}`)
 });
